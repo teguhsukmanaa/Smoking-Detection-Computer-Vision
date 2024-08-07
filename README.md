@@ -7,6 +7,7 @@ Motivated by the urgent need to address public health issues, particularly relat
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Installation](#installation)
+- [file](#file)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -23,6 +24,24 @@ To run this project locally, please follow these steps:
 1. Clone this repository: `git clone git@github.com:teguhsukmanaa/Smoking-Detection-Computer-Vision.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Or download the files manually.
+
+## File
+Here's a detail about the file in this repository:
+1. deployment (file) =
+```
+└──  deployment/
+  ├── CNN_smoking_model.h5 (CNN Model)
+  ├── app.py (Python script as a deployment interface)
+  ├── df_train_images_file.csv (Image data analysis results that used to build the model)
+  ├── eda.py (Python script for the EDA section in the deployment)
+  ├── prediction.py (Python script for the Prediction section in the deployment)
+  └── requirements.txt (List of libraries required to run the deployment)
+```
+3. CNN_smoking_model.keras = The CNN model that has been built
+4. P2G7_teguh_sukmana.ipynb = Python notebook contains scripts to build the model
+5. P2G7_teguh_sukmana_inference.ipynb = Python notebook for testing models with new data
+6. README.md = Repository description
+7. requirements.txt = List of libraries required to build the CNN model
 
 ## Usage
 To use the trained model for detecting the smoking behavior image, follow these steps:
